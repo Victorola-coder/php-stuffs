@@ -17,13 +17,42 @@ function isArmstrongNumber($number) {
     return $sum == $number;
 }
 
-// Example usage
-$numberToCheck = 153;
-
-// Display the result
-if (isArmstrongNumber($numberToCheck)) {
-    echo "$numberToCheck is an Armstrong number.";
+// Process form submission
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $numberToCheck = $_POST["number"];
 } else {
-    echo "$numberToCheck is not an Armstrong number.";
+    // Default value
+    $numberToCheck = 153;
 }
+
 ?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Armstrong Number Checker</title>
+</head>
+<body>
+    <h1>Armstrong Number Checker</h1>
+    
+    <form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
+        <label for="number">Enter a number:</label>
+        <input type="number" id="number" name="number" value="<?php echo $numberToCheck; ?>" required>
+        
+        <button type="submit">Check</button>
+    </form>
+
+    <p>Result:</p>
+    <?php
+    // Display the result of Armstrong number check
+    if (isArmstrongNumber($numberToCheck)) {
+        echo "$numberToCheck is an Armstrong number.";
+    } else {
+        echo "$numberToCheck is not an Armstrong number.";
+    }
+    ?>
+</body>
+</html>
+    
