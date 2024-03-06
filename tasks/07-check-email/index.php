@@ -1,5 +1,5 @@
 <?php
-// task7.php
+// task 7
 
 // Function to check if an email is valid
 function isValidEmail($email) {

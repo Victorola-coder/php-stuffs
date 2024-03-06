@@ -1,0 +1,5 @@
+This is line 1.
+This is line 2.
+Another line here.
+Testing line count in PHP.
+Adding more lines for variety.
