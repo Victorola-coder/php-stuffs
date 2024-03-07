@@ -7,7 +7,7 @@
 </head>
 <body>
     <?php
-// task19.php
+// task 19
 
 // Function to generate a simple random password from a given string
 function generateRandomPassword($inputString, $length = 8) {

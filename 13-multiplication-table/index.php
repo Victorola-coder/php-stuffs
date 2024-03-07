@@ -7,7 +7,7 @@
 </head>
 <body>
     <?php
-// task13.php
+// task 13
 
 // Function to print the multiplication table up to 12 * 12
 function printMultiplicationTable() {

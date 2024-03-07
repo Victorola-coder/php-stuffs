@@ -1,5 +1,5 @@
 <?php
-// task6.php
+// task 6
 
 // Function to redirect the user to a different page
 function redirectToPage($page) {

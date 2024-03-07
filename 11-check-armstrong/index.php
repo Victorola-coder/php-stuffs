@@ -1,5 +1,5 @@
 <?php
-// task11.php
+// task 11
 
 // Function to check if a number is an Armstrong number
 function isArmstrongNumber($number) {
@@ -19,7 +19,6 @@ function isArmstrongNumber($number) {
 
 // Example usage
 $numberToCheck = 153;
-
 // Display the result
 if (isArmstrongNumber($numberToCheck)) {
     echo "$numberToCheck is an Armstrong number.";

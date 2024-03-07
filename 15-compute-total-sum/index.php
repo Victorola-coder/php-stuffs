@@ -7,7 +7,7 @@
 </head>
 <body>
     <?php
-// task15.php
+// task 15
 
 // Function to compute the sum of digits of a number
 function sumOfDigits($number) {

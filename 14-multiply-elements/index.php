@@ -7,7 +7,7 @@
 </head>
 <body>
     <?php
-// task14.php
+// task 14
 
 // Function to multiply corresponding elements of two lists
 function multiplyLists($list1, $list2) {

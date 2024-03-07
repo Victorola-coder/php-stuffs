@@ -7,7 +7,7 @@
 </head>
 <body>
     <?php
-// task18.php
+// task 18
 
 // Function to change the case of all values in an array
 function changeCase($inputArray, $mode = 'lower') {
