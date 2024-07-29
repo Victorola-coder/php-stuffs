@@ -1,7 +1,7 @@
 <?php
 // task 24
 
-// Class to calculate the factorial of a positibve integer
+// Class to calculate the factorial of a positive integer
 class FactorialCalculator {
     // method
     public static function calculateFactorial($number) {
