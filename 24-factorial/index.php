@@ -1,9 +1,9 @@
 <?php
 // task 24
 
-// Class to calculate the factorial of an integer
+// Class to calculate the factorial of a positibve integer
 class FactorialCalculator {
-    // Method to calculate the factorial
+    // method
     public static function calculateFactorial($number) {
         if ($number < 0) {
             return "Factorial is undefined for negative numbers";
@@ -19,7 +19,7 @@ class FactorialCalculator {
     }
 }
 
-// Example usage
+// usecase
 $number = 5;
 $factorial = FactorialCalculator::calculateFactorial($number);
 
